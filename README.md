@@ -3,9 +3,9 @@
 ## 📊 Current Stats
 
 ```
-🔥 Current Streak: 1 days
-🏃 Total Jogging Days: 73
-📅 Last Jog: 2026-02-02
+🔥 Current Streak: 2 days
+🏃 Total Jogging Days: 74
+📅 Last Jog: 2026-02-04
 ```
 
 ## 📝 Exercise Log
