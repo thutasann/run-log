@@ -117,6 +117,14 @@
 
 
 
+
+### 2025-03-03
+[View on Strava](https://www.strava.com/activities/17587235510)
+
+```.html
+<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="17587235510" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+```
+
 ### 2026-03-02
 [View on Strava](https://www.strava.com/activities/17575115192)
 
