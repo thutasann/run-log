@@ -10,6 +10,7 @@ on:
     paths:
       - 'exercises.json'
       - 'streak.json'
+      - 'weekly-stats.yml'
 
 permissions:
   contents: read
