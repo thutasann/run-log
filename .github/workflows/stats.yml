@@ -1,0 +1,36 @@
+name: Running Stats on Push
+
+on:
+  push:
+    branches: [main, master]
+
+permissions:
+  contents: read
+
+jobs:
+  show-stats:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+    
+    - name: Generate Statistics
+      run: |
+        echo "🏃 Generating your running statistics..."
+        npm run stats
+    
+    - name: Create Summary
+      run: |
+        echo "## 🏃 Running Statistics" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "Your complete running statistics:" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+        npm run stats >> $GITHUB_STEP_SUMMARY 2>&1
+        echo "\`\`\`" >> $GITHUB_STEP_SUMMARY

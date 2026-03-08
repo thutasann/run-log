@@ -67,29 +67,24 @@ Daily at 8 PM UTC, if you haven't pushed:
 - Shows your current streak
 - Motivates you to keep going
 
-### Weekly Statistics Report
-Every Sunday at 8 PM UTC:
-- Automatically generates your weekly statistics
-- Creates an issue with comprehensive stats including:
-  - Year heatmaps
-  - Weekly and monthly trends
-  - Day of week analysis
-  - Streak history
-- Saves stats as downloadable artifacts
+### Stats on Every Push 📊
+**Automatically runs whenever you push!**
 
-### On-Demand Stats Viewer
-Manual trigger available:
-1. Go to Actions tab in GitHub
-2. Select "View Stats (On Demand)"
-3. Click "Run workflow"
-4. Optionally create an issue with the stats
-5. View results in workflow summary
-
-### Auto-Stats on Push
-When you push your run data:
-- Automatically generates updated statistics
-- Adds a comment to your commit with stats preview
-- Keeps you informed of your progress
+When you run `npm run log` and push:
+1. GitHub Actions automatically runs
+2. Generates your complete statistics
+3. Shows output in the Actions tab
+4. Includes all visualizations:
+   - Year heatmaps
+   - Weekly/monthly trends
+   - Day of week analysis
+   - Streak history
+   
+**To view:**
+- Go to Actions tab after pushing
+- Click on "Running Stats on Push" workflow
+- See full stats output in the logs
+- Or check the workflow summary for formatted stats
 
 ## 💡 Tips & Tricks
 
@@ -119,27 +114,17 @@ View comprehensive statistics including:
 - Day of week preferences
 - Longest streaks and consistency metrics
 
-### Using GitHub Actions for Stats
+### Viewing Your Stats on GitHub
 
-#### 📊 View Stats On-Demand
+After you push your run:
 1. Go to your repository on GitHub
 2. Click the **Actions** tab
-3. Select **"View Stats (On Demand)"** workflow
-4. Click **"Run workflow"** button
-5. Choose whether to create an issue with stats
-6. Click the green **"Run workflow"** button
-7. View results in the workflow summary
+3. Click on the latest **"Running Stats on Push"** workflow
+4. See two ways to view stats:
+   - **Summary tab**: Formatted stats at the top
+   - **Build logs**: Click "Generate Statistics" step for full output
 
-#### 📈 Weekly Stats Issues
-- Automatically created every Sunday at 8 PM UTC
-- Check the **Issues** tab for weekly reports
-- Each issue contains full statistics with visualizations
-- Tagged with `stats` and `weekly-report` labels
-
-#### 💬 Commit Stats Comments
-- After each `git push`, stats are auto-generated
-- Check your commit for a comment with stats preview
-- Full stats available in the Actions workflow logs
+That's it! Every push = fresh stats! 📊
 
 ## ❓ FAQ
 

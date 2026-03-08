@@ -178,9 +178,7 @@ ${[
 ## 🤖 Automation
 
 - **Daily Reminders**: Get notified if you haven't run today
-- **Weekly Stats**: Auto-generated every Sunday at 8 PM UTC
-- **On-Demand Stats**: Trigger from GitHub Actions tab anytime
-- **Commit Stats**: See updated stats on every push
+- **Stats on Push**: See complete statistics in GitHub Actions after every push
 
 ---
 
