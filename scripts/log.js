@@ -6,6 +6,14 @@ import { execSync } from 'child_process';
 import { readFileSync, writeFileSync } from 'fs';
 import readline from 'readline';
 import { loadJSON, saveJSON, getTodayDate, parseDate } from './utils.js';
+import {
+  generateCurrentMonthCalendar,
+  generateWeeklySummary,
+  generateMonthlySummary,
+  generateStreakHistory,
+  generateDayOfWeekAnalysis,
+  generateYearHeatmap
+} from './visualize.js';
 
 /** @typedef {import('./types.js').Exercise} Exercise */
 /** @typedef {import('./types.js').ExerciseData} ExerciseData */
@@ -77,44 +85,103 @@ function calculateStreak(dates) {
 }
 
 /**
- * Update README with current stats
+ * Update README with current stats and visualizations
  * @param {StreakData} streak
+ * @param {string[]} dates
  */
-function updateReadme(streak) {
+function updateReadme(streak, dates) {
   const readmePath = join(__dirname, '..', 'README.md');
-  let readme = readFileSync(readmePath, 'utf8');
+  const today = getTodayDate();
   
-  // Update stats
-  const stats = `\`\`\`
+  // Check if we have data from 2025
+  const has2025Data = dates.some(d => d.startsWith('2025'));
+  
+  // Generate new README content
+  let readme = `# 🏃 Daily Running Streak
+
+## 📊 Current Stats
+
+\`\`\`
 🔥 Current Streak: ${streak.current_streak} days
 🏃 Total Running Days: ${streak.total_days}
 📅 Last Run: ${streak.last_updated}
-\`\`\``;
-  
-  readme = readme.replace(
-    /```\n🔥 Current Streak:[\s\S]*?```/,
-    stats
-  );
-  
-  // Update milestones
-  const milestones = [
-    { days: 7, text: "7 days 🌱" },
-    { days: 30, text: "30 days 🌿" },
-    { days: 100, text: "100 days 🌳" },
-    { days: 365, text: "365 days 🏆" }
-  ];
-  
-  const milestoneText = milestones
-    .map(m => streak.current_streak >= m.days ? `- [x] ${m.text}` : `- [ ] ${m.text}`)
-    .join('\n') + '\n';
-  
-  readme = readme.replace(
-    /## 🏆 Milestones\n\n[\s\S]*?(?=\n---)/,
-    `## 🏆 Milestones\n\n${milestoneText}`
-  );
+📆 Today: ${today}
+\`\`\`
+
+## 📈 Streak History
+
+\`\`\`
+${generateStreakHistory(dates).trim()}
+\`\`\`
+
+## 📅 This Month
+
+\`\`\`
+${generateCurrentMonthCalendar(dates).trim()}
+\`\`\`
+
+## 📊 Last 4 Weeks
+
+\`\`\`
+${generateWeeklySummary(dates, 4).trim()}
+\`\`\`
+
+## 📊 Last 6 Months
+
+\`\`\`
+${generateMonthlySummary(dates, 6).trim()}
+\`\`\`
+
+## 📊 Day of Week Breakdown
+
+\`\`\`
+${generateDayOfWeekAnalysis(dates).trim()}
+\`\`\`
+
+## 🗓️ Year Heatmap (2026)
+
+\`\`\`
+${generateYearHeatmap(dates, 2026).trim()}
+\`\`\`
+`;
+
+  // Add 2025 heatmap if there's data
+  if (has2025Data) {
+    readme += `
+## 🗓️ Year Heatmap (2025)
+
+\`\`\`
+${generateYearHeatmap(dates, 2025).trim()}
+\`\`\`
+`;
+  }
+
+  readme += `
+---
+
+## 🏆 Milestones
+
+${[
+  { days: 7, text: "7 days 🌱" },
+  { days: 30, text: "30 days 🌿" },
+  { days: 100, text: "100 days 🌳" },
+  { days: 365, text: "365 days 🏆" }
+].map(m => streak.current_streak >= m.days ? `- [x] ${m.text}` : `- [ ] ${m.text}`).join('\n')}
+
+---
+
+## 📝 View More
+
+- **Detailed Log**: [LOGS.md](logs/LOGS.md)
+- **How It Works**: [HOW_IT_WORKS.md](HOW_IT_WORKS.md)
+
+---
+
+💪 **Keep up the great work! See you on the road!** 🏃‍♂️
+`;
   
   writeFileSync(readmePath, readme);
-  console.log('✅ Updated README.md');
+  console.log('✅ Updated README.md with full visualizations');
 }
 
 /**
@@ -227,7 +294,7 @@ async function main() {
     
     // Update all files
     console.log('\n📝 Updating files...');
-    updateReadme(streak);
+    updateReadme(streak, dates);
     updateLogs(data.exercises, date, stravaId);
     
     // Git operations

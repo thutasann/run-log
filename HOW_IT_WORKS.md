@@ -20,14 +20,44 @@ npm run log
 
 Everything else happens automatically - files update, commit, and push to GitHub.
 
+### 3. View Statistics
+Want to see cool visualizations and stats?
+```bash
+npm run stats
+```
+
+This shows you:
+- 📊 Current streak and totals
+- 📈 Weekly and monthly summaries with charts
+- 🗓️ Year heatmap (GitHub-style)
+- 📅 Current month calendar
+- 📊 Day of week breakdown
+- 🏆 Streak history and records
+
 ## 📁 What Gets Updated
 
 | File | What it tracks |
 |------|---------------|
 | `exercises.json` | All exercise dates |
 | `streak.json` | Current streak & total days |
-| `README.md` | Live stats & milestones |
+| `README.md` | Live stats, calendar, weekly chart & milestones |
 | `logs/LOGS.md` | Exercise table & Strava embeds |
+
+## 📊 Visualizations
+
+Your running data comes to life with beautiful ASCII visualizations!
+
+### Auto-Generated (in README.md)
+- 📅 Current month calendar with run markers
+- 📈 Last 4 weeks bar chart
+- 🏆 Milestone progress tracker
+
+### On-Demand (via `npm run stats`)
+- 🗓️ Full year heatmap (GitHub-style contribution graph)
+- 📊 6-month running summary with bar charts
+- 📈 Streak history and records (longest streak, average, consistency %)
+- 📊 Day of week breakdown (find your favorite running day!)
+- 🎯 All-time statistics
 
 ## 🔔 GitHub Actions
 
@@ -52,6 +82,17 @@ npm run log
 
 ### Multiple Runs per Day
 Just run `npm run log` again - it creates empty commits!
+
+### Check Your Progress
+```bash
+npm run stats
+```
+
+View comprehensive statistics including:
+- Year heatmap showing all your runs
+- Monthly and weekly trends
+- Day of week preferences
+- Longest streaks and consistency metrics
 
 ## ❓ FAQ
 

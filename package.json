@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "log": "node scripts/log.js",
+    "stats": "node scripts/stats.js",
     "type-check": "tsc --noEmit"
   },
   "devDependencies": {
