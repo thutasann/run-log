@@ -3,12 +3,12 @@
 echo "🏃 Setting up exercise streak git alias..."
 
 # Add git alias
-git config --global alias.jog '!cd $(git rev-parse --show-toplevel) && npm run log'
+git config --global alias.run '!cd $(git rev-parse --show-toplevel) && npm run log'
 
 echo "✅ Git alias created!"
 echo ""
 echo "Now you can simply type:"
-echo "  git jog"
+echo "  git run"
 echo ""
 echo "This will:"
 echo "1. Log today's exercise"

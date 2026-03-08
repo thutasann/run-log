@@ -9,7 +9,7 @@ npm install
 ```
 
 ### 2. Daily Routine
-After jogging, just run:
+After running, just run:
 ```bash
 npm run log
 ```
@@ -50,7 +50,7 @@ npm run log
 # Strava ID: 15875620162  (add activity)
 ```
 
-### Multiple Jogs per Day
+### Multiple Runs per Day
 Just run `npm run log` again - it creates empty commits!
 
 ## ❓ FAQ

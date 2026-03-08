@@ -1,4 +1,4 @@
-name: Close Jogging Reminder
+name: Close Running Reminder
 
 on:
   push:
@@ -18,12 +18,12 @@ jobs:
         script: |
           const today = new Date().toISOString().split('T')[0];
           
-          // Get open jogging reminder issues
+          // Get open running reminder issues
           const issues = await github.rest.issues.listForRepo({
             owner: context.repo.owner,
             repo: context.repo.repo,
             state: 'open',
-            labels: 'jogging-reminder'
+            labels: 'running-reminder'
           });
           
           // Find and close today's issue
@@ -42,10 +42,10 @@ jobs:
                 issue_number: issue.number,
                 body: `# 🎉 MISSION ACCOMPLISHED! 🎉
                 
-                You did it! You pushed, which means you jogged! 
+                You did it! You pushed, which means you ran! 
                 
                 ## 🏆 Achievement Unlocked
-                ✅ Daily jog completed
+                ✅ Daily run completed
                 ✅ Streak maintained
                 ✅ Heart happy
                 ✅ Code-life balance achieved

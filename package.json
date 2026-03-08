@@ -1,7 +1,7 @@
 {
   "name": "exercise-streak",
   "version": "1.0.0",
-  "description": "Track daily jogging streak with GitHub commits",
+  "description": "Track daily running streak with GitHub commits",
   "type": "module",
   "scripts": {
     "log": "node scripts/log.js",
@@ -11,7 +11,7 @@
     "@types/node": "^20.0.0",
     "typescript": "^5.0.0"
   },
-  "keywords": ["exercise", "streak", "health", "jogging"],
+  "keywords": ["exercise", "streak", "health", "running"],
   "author": "",
   "license": "MIT",
   "engines": {

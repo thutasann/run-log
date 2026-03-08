@@ -3,7 +3,7 @@
 /**
  * @typedef {Object} Exercise
  * @property {string} date - Date in YYYY-MM-DD format
- * @property {string} activity - Type of activity (e.g., "Jogging")
+ * @property {string} activity - Type of activity (e.g., "Running")
  */
 
 /**

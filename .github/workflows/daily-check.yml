@@ -1,4 +1,4 @@
-name: Daily Jogging Reminder
+name: Daily Running Reminder
 
 on:
   schedule:
@@ -11,7 +11,7 @@ permissions:
   issues: write
 
 jobs:
-  check-if-jogged:
+  check-if-ran:
     runs-on: ubuntu-latest
     
     steps:
@@ -52,13 +52,13 @@ jobs:
           // Random motivational messages
           const titles = [
             "🏃‍♂️ Your legs are calling you!",
-            "🚨 Streak Alert: Time to jog!",
+            "🚨 Streak Alert: Time to run!",
             "💔 Don't break the streak!",
             "🦵 Those legs won't move themselves!",
-            "⏰ Tick tock, it's jogging o'clock!",
+            "⏰ Tick tock, it's running o'clock!",
             "🔥 Keep the fire burning!",
             "👟 Your running shoes miss you!",
-            "💪 3 years of coding, 30 mins of jogging!"
+            "💪 3 years of coding, 30 mins of running!"
           ];
           
           const excuses = [
@@ -69,7 +69,7 @@ jobs:
             "Stack Overflow is down! 😱",
             "The WiFi is too good today! 📶",
             "My IDE won't let me go! 🔒",
-            "Debugging > Jogging? 🤔"
+            "Debugging > Running? 🤔"
           ];
           
           const motivations = [
@@ -89,9 +89,9 @@ jobs:
           
           const title = `${randomTitle} - ${today}`;
           
-          const body = `# 🚨 JOGGING REMINDER 🚨
+          const body = `# 🚨 RUNNING REMINDER 🚨
           
-          Hey developer! Your daily jog is waiting! 
+          Hey developer! Your daily run is waiting! 
           
           ## 📊 Current Status
           - **Current Streak**: ${streak} days 🔥
@@ -107,7 +107,7 @@ jobs:
           ## 🎯 Your Mission
           1. Close this issue
           2. Put on those shoes 👟
-          3. Jog for at least 20 minutes 🏃
+          3. Run for at least 20 minutes 🏃
           4. Push to GitHub when done ✅
           
           ## 💪 Motivational Quote
@@ -125,10 +125,10 @@ jobs:
           
           ### Fine, here's the deal:
           - Even 15 minutes counts
-          - Walking fast is still jogging
-          - You can jog while thinking about code
+          - Walking fast is still running
+          - You can run while thinking about code
           - Your heart rate monitor will love you
-          - This issue will haunt you until you jog
+          - This issue will haunt you until you run
           
           ### Remember why you started:
           **"After 3 years of coding and heart rate issues..."** 
@@ -139,7 +139,7 @@ jobs:
           
           ---
           
-          ⏰ **This issue will auto-close when you push after jogging!**
+          ⏰ **This issue will auto-close when you push after running!**
           
           Now go! Your body is your most important hardware! 🖥️❤️`;
           
@@ -148,7 +148,7 @@ jobs:
             owner: context.repo.owner,
             repo: context.repo.repo,
             state: 'open',
-            labels: 'jogging-reminder'
+            labels: 'running-reminder'
           });
           
           const todayIssue = issues.data.find(issue => issue.title.includes(today));
@@ -159,6 +159,6 @@ jobs:
               repo: context.repo.repo,
               title: title,
               body: body,
-              labels: ['jogging-reminder', 'health', 'daily']
+              labels: ['running-reminder', 'health', 'daily']
             });
           }

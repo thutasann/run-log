@@ -87,8 +87,8 @@ function updateReadme(streak) {
   // Update stats
   const stats = `\`\`\`
 🔥 Current Streak: ${streak.current_streak} days
-🏃 Total Jogging Days: ${streak.total_days}
-📅 Last Jog: ${streak.last_updated}
+🏃 Total Running Days: ${streak.total_days}
+📅 Last Run: ${streak.last_updated}
 \`\`\``;
   
   readme = readme.replace(
@@ -133,7 +133,7 @@ function updateLogs(exercises, date, stravaId) {
     .slice(0, 20);
   
   const logRows = recent
-    .map(e => `| ${e.date} | ✅ Jogged |`)
+    .map(e => `| ${e.date} | ✅ Ran |`)
     .join('\n');
   
   if (logRows) {
@@ -201,10 +201,10 @@ async function main() {
       console.log(`⚠️  Already logged exercise for ${date}`);
     } else {
       // Add exercise
-      data.exercises.push({ date, activity: 'Jogging' });
+      data.exercises.push({ date, activity: 'Running' });
       data.exercises.sort((a, b) => a.date.localeCompare(b.date));
       saveJSON(exercisesPath, data);
-      console.log(`✅ Added jogging for ${date}`);
+      console.log(`✅ Added running for ${date}`);
     }
     
     // Ask for Strava activity ID
@@ -234,7 +234,7 @@ async function main() {
     console.log('\n🔄 Committing changes...');
     execSync('git add -A', { stdio: 'inherit' });
     
-    const commitMessage = `🏃 Jogged on ${date}`;
+    const commitMessage = `🏃 Ran on ${date}`;
     if (exists) {
       execSync(`git commit --allow-empty -m "${commitMessage}"`, { stdio: 'pipe' });
     } else {
