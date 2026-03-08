@@ -175,6 +175,13 @@ ${[
 - **Detailed Log**: [LOGS.md](logs/LOGS.md)
 - **How It Works**: [HOW_IT_WORKS.md](HOW_IT_WORKS.md)
 
+## 🤖 Automation
+
+- **Daily Reminders**: Get notified if you haven't run today
+- **Weekly Stats**: Auto-generated every Sunday at 8 PM UTC
+- **On-Demand Stats**: Trigger from GitHub Actions tab anytime
+- **Commit Stats**: See updated stats on every push
+
 ---
 
 💪 **Keep up the great work! See you on the road!** 🏃‍♂️
