@@ -3,35 +3,121 @@
 ## 📊 Current Stats
 
 ```
-🔥 Current Streak: 3 days
-🏃 Total Running Days: 94
-📅 Last Run: 2026-03-08
+🔥 Current Streak: 4 days
+🏃 Total Running Days: 95
+📅 Last Run: 2026-03-09
+📆 Today: 2026-03-09
 ```
 
-## 🗓️ This Month
+## 📈 Streak History
+
+```
+🏆 Longest Streak: 12 days
+📊 Average Streak: 3.3 days
+🔥 Total Streaks: 20
+📅 First Run: 2025-03-03
+⏱️  Days Active: 95 days
+💯 Consistency: 25.5% (95/372 days)
+```
+
+## 📅 This Month
+
 ```
 March 2026
 Su Mo Tu We Th Fr Sa
-                   1 
- +2  3  4 +5  6 +7 *8 
+ 1 +2  3  4 +5  6 +7 
++8 *9 10 11 12 13 14 
+15 16 17 18 19 20 21 
+22 23 24 25 26 27 28 
+29 30 31 
 
 Legend: *Today+Ran  +Ran  [Today]
 ```
 
-## 📈 Last 4 Weeks
+## 📊 Last 4 Weeks
+
 ```
-Week 2/9-2/15      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 4 runs
-Week 2/16-2/22                               0 runs
-Week 2/23-2/29     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 4 runs
-Week 3/1-3/7       ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓            2 runs
+Week 2/9-2/15     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓       4 runs
+Week 2/16-2/22    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓       4 runs
+Week 2/23-3/1     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 5 runs
+Week 3/2-3/8      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓       4 runs
 ```
+
+## 📊 Last 6 Months
+
+```
+Oct 2025  ██████████████████████████████████████████████████ 24 runs
+Nov 2025  ███████████████████████████████████ 17 runs
+Dec 2025  ███████████████████████ 11 runs
+Jan 2026  █████████████████████ 10 runs
+Feb 2026  ███████████████████████████████████ 17 runs
+Mar 2026  ██████████ 5 runs
+```
+
+## 📊 Day of Week Breakdown
+
+```
+Sunday     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓        14 runs
+Monday     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓    16 runs
+Tuesday    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓              10 runs
+Wednesday  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   17 runs
+Thursday   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓      15 runs
+Friday     ▓▓▓▓▓▓▓▓                       5 runs
+Saturday   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 18 runs
+
+⭐ Favorite Day: Saturday
+```
+
+## 🗓️ Year Heatmap (2026)
+
+```
+Jan      Feb      Mar      Apr      May      Jun      Jul      Aug      Sep      Oct      Nov      Dec      
+       🟢🟢🟢⚫  🟢⚫⚫⚫    🟢🟢⚫⚫   ⚫⚫⚫⚫     ⚫⚫⚫⚫    ⚫⚫⚫⚫⚫     ⚫⚫⚫⚫     ⚫⚫⚫⚫     ⚫⚫⚫⚫     ⚫⚫⚫⚫     ⚫⚫⚫⚫     ⚫⚫⚫⚫    
+Mon    ⚫⚫⚫⚫     ⚫🟢⚫🟢   ⚫⚫⚫⚫     ⚫⚫⚫⚫     ⚫⚫⚫⚫    ⚫⚫⚫⚫⚫     ⚫⚫⚫⚫     ⚫⚫⚫⚫    ⚫⚫⚫⚫⚫     ⚫⚫⚫⚫     ⚫⚫⚫⚫    ⚫⚫⚫⚫⚫    
+       🟢🟢🟢⚫  🟢🟢🟢🟢 ⚫⚫⚫⚫    ⚫⚫⚫⚫⚫     ⚫⚫⚫⚫    ⚫⚫⚫⚫     ⚫⚫⚫⚫⚫     ⚫⚫⚫⚫    ⚫⚫⚫⚫⚫     ⚫⚫⚫⚫     ⚫⚫⚫⚫    ⚫⚫⚫⚫⚫    
+Wed   ⚫⚫⚫🟢⚫    🟢⚫🟢🟢  🟢⚫⚫⚫   ⚫⚫⚫⚫⚫     ⚫⚫⚫⚫    ⚫⚫⚫⚫     ⚫⚫⚫⚫⚫     ⚫⚫⚫⚫    ⚫⚫⚫⚫     ⚫⚫⚫⚫⚫     ⚫⚫⚫⚫    ⚫⚫⚫⚫⚫    
+      ⚫⚫⚫⚫⚫     ⚫🟢⚫🟢   ⚫⚫⚫⚫    ⚫⚫⚫⚫     ⚫⚫⚫⚫⚫    ⚫⚫⚫⚫     ⚫⚫⚫⚫⚫     ⚫⚫⚫⚫    ⚫⚫⚫⚫     ⚫⚫⚫⚫⚫     ⚫⚫⚫⚫    ⚫⚫⚫⚫     
+Fri   🟢🟢⚫🟢⚫  ⚫🟢🟢🟢  🟢⚫⚫⚫   ⚫⚫⚫⚫     ⚫⚫⚫⚫⚫    ⚫⚫⚫⚫     ⚫⚫⚫⚫     ⚫⚫⚫⚫⚫    ⚫⚫⚫⚫     ⚫⚫⚫⚫⚫     ⚫⚫⚫⚫    ⚫⚫⚫⚫     
+      ⚫⚫⚫⚫     ⚫🟢⚫🟢   ⚫🟢⚫⚫⚫   ⚫⚫⚫⚫     ⚫⚫⚫⚫⚫    ⚫⚫⚫⚫     ⚫⚫⚫⚫     ⚫⚫⚫⚫⚫    ⚫⚫⚫⚫     ⚫⚫⚫⚫     ⚫⚫⚫⚫⚫    ⚫⚫⚫⚫     
+
+      🟢 = Ran    ⚫ = Rest
+```
+
+## 🗓️ Year Heatmap (2025)
+
+```
+Jan      Feb      Mar      Apr      May      Jun      Jul      Aug      Sep      Oct      Nov      Dec      
+       ⚫⚫⚫⚫     ⚫⚫⚫⚫     🟢⚫⚫⚫    ⚫⚫⚫⚫     ⚫⚫⚫⚫     ⚫⚫⚫⚫     ⚫⚫⚫⚫     ⚫⚫⚫⚫    ⚫⚫⚫🟢🟢   🟢🟢🟢⚫  🟢⚫🟢🟢 🟢⚫⚫⚫⚫   
+Mon    ⚫⚫⚫⚫     ⚫⚫⚫⚫     ⚫⚫⚫⚫    ⚫⚫⚫⚫⚫     ⚫⚫⚫⚫     ⚫⚫⚫⚫    ⚫⚫⚫⚫⚫     ⚫⚫⚫⚫    ⚫⚫⚫🟢🟢   🟢⚫⚫🟢   🟢🟢⚫⚫  ⚫⚫🟢⚫🟢  
+      ⚫⚫⚫⚫⚫     ⚫⚫⚫⚫     ⚫⚫⚫⚫    ⚫⚫⚫⚫⚫     ⚫⚫⚫⚫     ⚫⚫⚫⚫    ⚫⚫⚫⚫⚫     ⚫⚫⚫⚫    ⚫⚫⚫🟢    🟢🟢🟢🟢🟢 🟢⚫🟢🟢 🟢⚫⚫⚫⚫   
+Wed   ⚫⚫⚫⚫⚫     ⚫⚫⚫⚫     ⚫⚫⚫⚫    ⚫⚫⚫⚫     ⚫⚫⚫⚫⚫     ⚫⚫⚫⚫    ⚫⚫⚫⚫⚫     ⚫⚫⚫⚫    ⚫⚫⚫🟢    🟢⚫🟢🟢🟢 🟢🟢🟢⚫ ⚫🟢🟢⚫   
+      ⚫⚫⚫⚫⚫     ⚫⚫⚫⚫     ⚫⚫⚫⚫    ⚫⚫⚫⚫     ⚫⚫⚫⚫⚫     ⚫⚫⚫⚫    ⚫⚫⚫⚫     ⚫⚫⚫⚫⚫    ⚫⚫⚫⚫     🟢🟢⚫🟢⚫  ⚫⚫⚫⚫    ⚫⚫⚫⚫     
+Fri   ⚫⚫⚫⚫     ⚫⚫⚫⚫     ⚫⚫⚫⚫⚫    ⚫⚫⚫⚫     ⚫⚫⚫⚫⚫     ⚫⚫⚫⚫    ⚫⚫⚫⚫     ⚫⚫⚫⚫⚫    ⚫⚫🟢🟢   🟢🟢🟢⚫  🟢🟢🟢🟢⚫🟢⚫🟢⚫   
+      ⚫⚫⚫⚫     ⚫⚫⚫⚫     ⚫⚫⚫⚫⚫    ⚫⚫⚫⚫     ⚫⚫⚫⚫     ⚫⚫⚫⚫⚫    ⚫⚫⚫⚫     ⚫⚫⚫⚫⚫    ⚫⚫🟢🟢   🟢🟢🟢🟢 ⚫🟢⚫⚫🟢  ⚫🟢🟢🟢  
+
+      🟢 = Ran    ⚫ = Rest
+```
+
+---
+
+## 🏆 Milestones
+
+- [ ] 7 days 🌱
+- [ ] 30 days 🌿
+- [ ] 100 days 🌳
+- [ ] 365 days 🏆
+
 ---
 
 ## 📝 View More
 
 - **Detailed Log**: [LOGS.md](logs/LOGS.md)
-- **Full Statistics**: Run `npm run stats` for complete analysis
 - **How It Works**: [HOW_IT_WORKS.md](HOW_IT_WORKS.md)
+
+## 🤖 Automation
+
+- **Daily Reminders**: Get notified if you haven't run today
+- **Stats on Push**: See complete statistics in GitHub Actions after every push
 
 ---
 
