@@ -29,7 +29,6 @@ npm run stats
 This shows you:
 - 📊 Current streak and totals
 - 📈 Weekly and monthly summaries with charts
-- 🗓️ Year heatmap (GitHub-style)
 - 📅 Current month calendar
 - 📊 Day of week breakdown
 - 🏆 Streak history and records
@@ -53,7 +52,6 @@ Your running data comes to life with beautiful ASCII visualizations!
 - 🏆 Milestone progress tracker
 
 ### On-Demand (via `npm run stats`)
-- 🗓️ Full year heatmap (GitHub-style contribution graph)
 - 📊 6-month running summary with bar charts
 - 📈 Streak history and records (longest streak, average, consistency %)
 - 📊 Day of week breakdown (find your favorite running day!)
@@ -75,7 +73,6 @@ When you run `npm run log` and push:
 2. Generates your complete statistics
 3. Shows output in the Actions tab
 4. Includes all visualizations:
-   - Year heatmaps
    - Weekly/monthly trends
    - Day of week analysis
    - Streak history
@@ -109,7 +106,6 @@ npm run stats
 ```
 
 View comprehensive statistics including:
-- Year heatmap showing all your runs
 - Monthly and weekly trends
 - Day of week preferences
 - Longest streaks and consistency metrics

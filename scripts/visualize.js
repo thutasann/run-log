@@ -3,59 +3,6 @@
 import { parseDate } from './utils.js';
 
 /**
- * Generate GitHub-style heatmap calendar for the year
- * @param {string[]} dates - Array of exercise dates
- * @param {number} [year] - Year to display (defaults to current year)
- * @returns {string} ASCII heatmap
- */
-export function generateYearHeatmap(dates, year = new Date().getFullYear()) {
-  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-  
-  // Create a set for quick lookup
-  const dateSet = new Set(dates.filter(d => d.startsWith(String(year))));
-  
-  let heatmap = '\n';
-  
-  // Month headers
-  heatmap += '      ';
-  for (let m = 0; m < 12; m++) {
-    heatmap += months[m].padEnd(9, ' ');
-  }
-  heatmap += '\n';
-  
-  // Week rows (7 rows for days of week)
-  const dayLabels = ['', 'Mon', '', 'Wed', '', 'Fri', ''];
-  
-  for (let dayOfWeek = 0; dayOfWeek < 7; dayOfWeek++) {
-    heatmap += dayLabels[dayOfWeek].padEnd(6, ' ');
-    
-    for (let month = 0; month < 12; month++) {
-      const daysInMonth = new Date(year, month + 1, 0).getDate();
-      const firstDay = new Date(year, month, 1).getDay();
-      const adjustedFirstDay = firstDay === 0 ? 6 : firstDay - 1; // Mon = 0, Sun = 6
-      
-      let weekStr = '';
-      for (let week = 0; week < 5; week++) {
-        const dayNum = week * 7 + dayOfWeek - adjustedFirstDay + 1;
-        
-        if (dayNum >= 1 && dayNum <= daysInMonth) {
-          const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(dayNum).padStart(2, '0')}`;
-          weekStr += dateSet.has(dateStr) ? '🟢' : '⚫';
-        } else {
-          weekStr += ' ';
-        }
-      }
-      heatmap += weekStr.padEnd(9, ' ');
-    }
-    heatmap += '\n';
-  }
-  
-  heatmap += '\n      🟢 = Ran    ⚫ = Rest\n';
-  
-  return heatmap;
-}
-
-/**
  * Generate monthly summary with bar chart
  * @param {string[]} dates - Array of exercise dates
  * @param {number} [monthsToShow=6] - Number of recent months to show

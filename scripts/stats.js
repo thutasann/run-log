@@ -5,7 +5,6 @@ import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 import { loadJSON, getTodayDate } from './utils.js';
 import {
-  generateYearHeatmap,
   generateMonthlySummary,
   generateWeeklySummary,
   generateStreakHistory,
@@ -79,19 +78,6 @@ function displayStats() {
   console.log('\n📊 DAY OF WEEK BREAKDOWN');
   console.log('-'.repeat(60));
   console.log(generateDayOfWeekAnalysis(dates));
-  
-  // Year Heatmap
-  console.log('\n🗓️  YEAR HEATMAP (2026)');
-  console.log('-'.repeat(60));
-  console.log(generateYearHeatmap(dates, 2026));
-  
-  // Year Heatmap for 2025 if there's data
-  const has2025Data = dates.some(d => d.startsWith('2025'));
-  if (has2025Data) {
-    console.log('\n🗓️  YEAR HEATMAP (2025)');
-    console.log('-'.repeat(60));
-    console.log(generateYearHeatmap(dates, 2025));
-  }
   
   console.log('\n' + '='.repeat(60));
   console.log('\n💪 Keep up the great work! See you on the road! 🏃‍♂️\n');

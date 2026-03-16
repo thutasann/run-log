@@ -11,8 +11,7 @@ import {
   generateWeeklySummary,
   generateMonthlySummary,
   generateStreakHistory,
-  generateDayOfWeekAnalysis,
-  generateYearHeatmap
+  generateDayOfWeekAnalysis
 } from './visualize.js';
 
 /** @typedef {import('./types.js').Exercise} Exercise */
@@ -93,9 +92,6 @@ function updateReadme(streak, dates) {
   const readmePath = join(__dirname, '..', 'README.md');
   const today = getTodayDate();
   
-  // Check if we have data from 2025
-  const has2025Data = dates.some(d => d.startsWith('2025'));
-  
   // Generate new README content
   let readme = `# 🏃 Daily Running Streak
 
@@ -138,25 +134,6 @@ ${generateMonthlySummary(dates, 6).trim()}
 ${generateDayOfWeekAnalysis(dates).trim()}
 \`\`\`
 
-## 🗓️ Year Heatmap (2026)
-
-\`\`\`
-${generateYearHeatmap(dates, 2026).trim()}
-\`\`\`
-`;
-
-  // Add 2025 heatmap if there's data
-  if (has2025Data) {
-    readme += `
-## 🗓️ Year Heatmap (2025)
-
-\`\`\`
-${generateYearHeatmap(dates, 2025).trim()}
-\`\`\`
-`;
-  }
-
-  readme += `
 ---
 
 ## 🏆 Milestones
