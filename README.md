@@ -1,4 +1,4 @@
-# 🏃 Daily Running Streak
+# 🏃 Run Log
 
 ## 📊 Current Stats
 
@@ -67,15 +67,6 @@ Saturday   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 
 ⭐ Favorite Day: Saturday
 ```
-
----
-
-## 🏆 Milestones
-
-- [x] 7 days 🌱
-- [ ] 30 days 🌿
-- [ ] 100 days 🌳
-- [ ] 365 days 🏆
 
 ---
 

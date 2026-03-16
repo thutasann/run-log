@@ -136,17 +136,6 @@ ${generateDayOfWeekAnalysis(dates).trim()}
 
 ---
 
-## 🏆 Milestones
-
-${[
-  { days: 7, text: "7 days 🌱" },
-  { days: 30, text: "30 days 🌿" },
-  { days: 100, text: "100 days 🌳" },
-  { days: 365, text: "365 days 🏆" }
-].map(m => streak.current_streak >= m.days ? `- [x] ${m.text}` : `- [ ] ${m.text}`).join('\n')}
-
----
-
 ## 📝 View More
 
 - **Detailed Log**: [LOGS.md](logs/LOGS.md)
