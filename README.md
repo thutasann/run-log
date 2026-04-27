@@ -3,21 +3,21 @@
 ## 📊 Current Stats
 
 ```
-🔥 Current Streak: 46 days
-🏃 Total Running Days: 137
-📅 Last Run: 2026-04-26
-📆 Today: 2026-04-26
+🔥 Current Streak: 47 days
+🏃 Total Running Days: 138
+📅 Last Run: 2026-04-27
+📆 Today: 2026-04-27
 ```
 
 ## 📈 Streak History
 
 ```
 🏆 Longest Streak: 12 days
-📊 Average Streak: 4.1 days
+📊 Average Streak: 4.2 days
 🔥 Total Streaks: 26
 📅 First Run: 2025-03-03
-⏱️  Days Active: 137 days
-💯 Consistency: 32.6% (137/420 days)
+⏱️  Days Active: 138 days
+💯 Consistency: 32.8% (138/421 days)
 ```
 
 ## 📅 This Month
@@ -29,7 +29,7 @@ Su Mo Tu We Th Fr Sa
 +5 +6 +7 +8 +9 +10 11 
 +12 +13 +14 +15 +16 17 +18 
 +19 +20 +21 22 +23 +24 +25 
-*26 27 28 29 30 
++26 *27 28 29 30 
 
 Legend: *Today+Ran  +Ran  [Today]
 ```
@@ -37,10 +37,10 @@ Legend: *Today+Ran  +Ran  [Today]
 ## 📊 Last 4 Weeks
 
 ```
-Week 3/29-4/4     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 6 runs
-Week 4/5-4/11     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 6 runs
-Week 4/12-4/18    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 6 runs
-Week 4/19-4/25    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 6 runs
+Week 3/30-4/5     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 6 runs
+Week 4/6-4/12     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 6 runs
+Week 4/13-4/19    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 6 runs
+Week 4/20-4/26    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 6 runs
 ```
 
 ## 📊 Last 6 Months
@@ -51,14 +51,14 @@ Dec 2025  ██████████████████████ 11 
 Jan 2026  ████████████████████ 10 runs
 Feb 2026  ██████████████████████████████████ 17 runs
 Mar 2026  ██████████████████████████████████████████████████ 25 runs
-Apr 2026  ████████████████████████████████████████████ 22 runs
+Apr 2026  ██████████████████████████████████████████████ 23 runs
 ```
 
 ## 📊 Day of Week Breakdown
 
 ```
 Sunday     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     21 runs
-Monday     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   22 runs
+Monday     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  23 runs
 Tuesday    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓          17 runs
 Wednesday  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   22 runs
 Thursday   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓      20 runs
