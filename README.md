@@ -3,10 +3,10 @@
 ## 📊 Current Stats
 
 ```
-🔥 Current Streak: 50 days
-🏃 Total Running Days: 141
-📅 Last Run: 2026-04-30
-📆 Today: 2026-04-30
+🔥 Current Streak: 51 days
+🏃 Total Running Days: 142
+📅 Last Run: 2026-05-01
+📆 Today: 2026-05-01
 ```
 
 ## 📈 Streak History
@@ -16,20 +16,21 @@
 📊 Average Streak: 4.3 days
 🔥 Total Streaks: 26
 📅 First Run: 2025-03-03
-⏱️  Days Active: 141 days
-💯 Consistency: 33.3% (141/424 days)
+⏱️  Days Active: 142 days
+💯 Consistency: 33.4% (142/425 days)
 ```
 
 ## 📅 This Month
 
 ```
-April 2026
+May 2026
 Su Mo Tu We Th Fr Sa
-         +1  2 +3 +4 
-+5 +6 +7 +8 +9 +10 11 
-+12 +13 +14 +15 +16 17 +18 
-+19 +20 +21 22 +23 +24 +25 
-+26 +27 +28 +29 *30 
+               *1  2 
+ 3  4  5  6  7  8  9 
+10 11 12 13 14 15 16 
+17 18 19 20 21 22 23 
+24 25 26 27 28 29 30 
+31 
 
 Legend: *Today+Ran  +Ran  [Today]
 ```
@@ -37,21 +38,21 @@ Legend: *Today+Ran  +Ran  [Today]
 ## 📊 Last 4 Weeks
 
 ```
-Week 4/2-4/8      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     6 runs
-Week 4/9-4/15     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     6 runs
-Week 4/16-4/22    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓          5 runs
-Week 4/23-4/29    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 7 runs
+Week 4/3-4/9      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 7 runs
+Week 4/10-4/16    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     6 runs
+Week 4/17-4/23    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓          5 runs
+Week 4/24-4/30    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 7 runs
 ```
 
 ## 📊 Last 6 Months
 
 ```
-Nov 2025  █████████████████████████████████ 17 runs
 Dec 2025  █████████████████████ 11 runs
 Jan 2026  ███████████████████ 10 runs
 Feb 2026  █████████████████████████████████ 17 runs
 Mar 2026  ████████████████████████████████████████████████ 25 runs
 Apr 2026  ██████████████████████████████████████████████████ 26 runs
+May 2026  ██ 1 runs
 ```
 
 ## 📊 Day of Week Breakdown
@@ -62,7 +63,7 @@ Monday     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 Tuesday    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓        18 runs
 Wednesday  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  23 runs
 Thursday   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     21 runs
-Friday     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓                 11 runs
+Friday     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓                12 runs
 Saturday   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 24 runs
 
 ⭐ Favorite Day: Saturday
