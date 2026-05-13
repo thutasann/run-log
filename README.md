@@ -3,21 +3,21 @@
 ## 📊 Current Stats
 
 ```
-🔥 Current Streak: 60 days
-🏃 Total Running Days: 151
-📅 Last Run: 2026-05-12
-📆 Today: 2026-05-12
+🔥 Current Streak: 61 days
+🏃 Total Running Days: 152
+📅 Last Run: 2026-05-13
+📆 Today: 2026-05-13
 ```
 
 ## 📈 Streak History
 
 ```
 🏆 Longest Streak: 13 days
-📊 Average Streak: 4.4 days
+📊 Average Streak: 4.5 days
 🔥 Total Streaks: 27
 📅 First Run: 2025-03-03
-⏱️  Days Active: 151 days
-💯 Consistency: 34.6% (151/436 days)
+⏱️  Days Active: 152 days
+💯 Consistency: 34.8% (152/437 days)
 ```
 
 ## 📅 This Month
@@ -27,7 +27,7 @@ May 2026
 Su Mo Tu We Th Fr Sa
                +1 +2 
 +3 +4 +5  6 +7  8 +9 
-+10 +11 *12 13 14 15 16 
++10 +11 +12 *13 14 15 16 
 17 18 19 20 21 22 23 
 24 25 26 27 28 29 30 
 31 
@@ -38,10 +38,10 @@ Legend: *Today+Ran  +Ran  [Today]
 ## 📊 Last 4 Weeks
 
 ```
-Week 4/14-4/20    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     6 runs
-Week 4/21-4/27    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     6 runs
-Week 4/28-5/4     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 7 runs
-Week 5/5-5/11     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓          5 runs
+Week 4/15-4/21    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     6 runs
+Week 4/22-4/28    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     6 runs
+Week 4/29-5/5     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 7 runs
+Week 5/6-5/12     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓          5 runs
 ```
 
 ## 📊 Last 6 Months
@@ -52,7 +52,7 @@ Jan 2026  ███████████████████ 10 runs
 Feb 2026  █████████████████████████████████ 17 runs
 Mar 2026  ████████████████████████████████████████████████ 25 runs
 Apr 2026  ██████████████████████████████████████████████████ 26 runs
-May 2026  ███████████████████ 10 runs
+May 2026  █████████████████████ 11 runs
 ```
 
 ## 📊 Day of Week Breakdown
@@ -61,7 +61,7 @@ May 2026  ███████████████████ 10 runs
 Sunday     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓    23 runs
 Monday     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  25 runs
 Tuesday    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓        20 runs
-Wednesday  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓    23 runs
+Wednesday  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   24 runs
 Thursday   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓      22 runs
 Friday     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓                 12 runs
 Saturday   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 26 runs
