@@ -3,10 +3,10 @@
 ## 📊 Current Stats
 
 ```
-🔥 Current Streak: 61 days
-🏃 Total Running Days: 152
-📅 Last Run: 2026-05-13
-📆 Today: 2026-05-13
+🔥 Current Streak: 62 days
+🏃 Total Running Days: 153
+📅 Last Run: 2026-05-14
+📆 Today: 2026-05-14
 ```
 
 ## 📈 Streak History
@@ -16,8 +16,8 @@
 📊 Average Streak: 4.5 days
 🔥 Total Streaks: 27
 📅 First Run: 2025-03-03
-⏱️  Days Active: 152 days
-💯 Consistency: 34.8% (152/437 days)
+⏱️  Days Active: 153 days
+💯 Consistency: 34.9% (153/438 days)
 ```
 
 ## 📅 This Month
@@ -27,7 +27,7 @@ May 2026
 Su Mo Tu We Th Fr Sa
                +1 +2 
 +3 +4 +5  6 +7  8 +9 
-+10 +11 +12 *13 14 15 16 
++10 +11 +12 +13 *14 15 16 
 17 18 19 20 21 22 23 
 24 25 26 27 28 29 30 
 31 
@@ -38,10 +38,10 @@ Legend: *Today+Ran  +Ran  [Today]
 ## 📊 Last 4 Weeks
 
 ```
-Week 4/15-4/21    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     6 runs
-Week 4/22-4/28    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     6 runs
-Week 4/29-5/5     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 7 runs
-Week 5/6-5/12     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓          5 runs
+Week 4/16-4/22    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓          5 runs
+Week 4/23-4/29    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 7 runs
+Week 4/30-5/6     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     6 runs
+Week 5/7-5/13     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     6 runs
 ```
 
 ## 📊 Last 6 Months
@@ -52,7 +52,7 @@ Jan 2026  ███████████████████ 10 runs
 Feb 2026  █████████████████████████████████ 17 runs
 Mar 2026  ████████████████████████████████████████████████ 25 runs
 Apr 2026  ██████████████████████████████████████████████████ 26 runs
-May 2026  █████████████████████ 11 runs
+May 2026  ███████████████████████ 12 runs
 ```
 
 ## 📊 Day of Week Breakdown
@@ -62,7 +62,7 @@ Sunday     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 Monday     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  25 runs
 Tuesday    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓        20 runs
 Wednesday  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   24 runs
-Thursday   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓      22 runs
+Thursday   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓    23 runs
 Friday     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓                 12 runs
 Saturday   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 26 runs
 
