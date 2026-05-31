@@ -3,21 +3,21 @@
 ## 📊 Current Stats
 
 ```
-🔥 Current Streak: 8 days
-🏃 Total Running Days: 165
-📅 Last Run: 2026-05-30
-📆 Today: 2026-05-30
+🔥 Current Streak: 9 days
+🏃 Total Running Days: 166
+📅 Last Run: 2026-05-31
+📆 Today: 2026-05-31
 ```
 
 ## 📈 Streak History
 
 ```
 🏆 Longest Streak: 13 days
-📊 Average Streak: 4.7 days
-🔥 Total Streaks: 28
+📊 Average Streak: 4.6 days
+🔥 Total Streaks: 29
 📅 First Run: 2025-03-03
-⏱️  Days Active: 165 days
-💯 Consistency: 36.3% (165/454 days)
+⏱️  Days Active: 166 days
+💯 Consistency: 36.5% (166/455 days)
 ```
 
 ## 📅 This Month
@@ -29,8 +29,8 @@ Su Mo Tu We Th Fr Sa
 +3 +4 +5  6 +7  8 +9 
 +10 +11 +12 +13 +14 +15 +16 
 +17 +18 19 20 +21 +22 +23 
-+24 +25 +26 27 +28 29 *30 
-31 
++24 +25 +26 27 +28 29 +30 
+*31 
 
 Legend: *Today+Ran  +Ran  [Today]
 ```
@@ -38,10 +38,10 @@ Legend: *Today+Ran  +Ran  [Today]
 ## 📊 Last 4 Weeks
 
 ```
-Week 5/2-5/8      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓          5 runs
-Week 5/9-5/15     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 7 runs
-Week 5/16-5/22    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓          5 runs
-Week 5/23-5/29    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓          5 runs
+Week 5/3-5/9      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓          5 runs
+Week 5/10-5/16    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 7 runs
+Week 5/17-5/23    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓          5 runs
+Week 5/24-5/30    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓          5 runs
 ```
 
 ## 📊 Last 6 Months
@@ -52,13 +52,13 @@ Jan 2026  ███████████████████ 10 runs
 Feb 2026  █████████████████████████████████ 17 runs
 Mar 2026  ████████████████████████████████████████████████ 25 runs
 Apr 2026  ██████████████████████████████████████████████████ 26 runs
-May 2026  ██████████████████████████████████████████████ 24 runs
+May 2026  ████████████████████████████████████████████████ 25 runs
 ```
 
 ## 📊 Day of Week Breakdown
 
 ```
-Sunday     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     25 runs
+Sunday     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓    26 runs
 Monday     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   27 runs
 Tuesday    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓         21 runs
 Wednesday  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓      24 runs
