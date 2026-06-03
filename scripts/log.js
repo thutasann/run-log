@@ -210,6 +210,15 @@ function updateLogs(exercises, date, stravaId) {
 }
 
 /**
+ * Sync frontend data from the latest tracker files.
+ */
+function syncWebData() {
+  const webPath = join(__dirname, '..', 'web');
+  execSync('node scripts/sync-run-data.mjs', { cwd: webPath, stdio: 'inherit' });
+  console.log('✅ Synced web data');
+}
+
+/**
  * Main function
  */
 async function main() {
@@ -267,6 +276,7 @@ async function main() {
     console.log('\n📝 Updating files...');
     updateReadme(streak, dates);
     updateLogs(data.exercises, date, stravaId);
+    syncWebData();
     
     // Git operations
     console.log('\n🔄 Committing changes...');

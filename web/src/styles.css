@@ -32,11 +32,6 @@ a {
   color: #171614;
 }
 
-.strava-embed-placeholder {
-  min-height: 196px;
-  width: 100%;
-}
-
 @media (max-width: 640px) {
   .shadow-hard {
     box-shadow: 5px 5px 0 #171614;

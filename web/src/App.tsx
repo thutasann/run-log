@@ -4,12 +4,10 @@ import {
   CalendarDays,
   Flame,
   Gauge,
-  RadioTower,
   Route,
   Sparkles,
   Trophy
 } from "lucide-react";
-import { useEffect } from "react";
 import { exerciseDates, stravaActivities, streak } from "./data/run-data";
 import {
   formatPrettyDate,
@@ -29,7 +27,6 @@ const monthlyTotals = getLastMonths(exerciseDates, todayKey);
 const weeklyTotals = getLastWeeks(exerciseDates, todayKey);
 const heatmapDays = getHeatmapDays(exerciseDates, todayKey);
 const recentStrava = stravaActivities.slice(0, 12);
-const embeddedStrava = stravaActivities.slice(0, 3);
 const maxMonth = Math.max(...monthlyTotals.map((month) => month.count), 1);
 const maxWeek = Math.max(...weeklyTotals.map((week) => week.count), 1);
 
@@ -65,17 +62,6 @@ const statCards = [
 ];
 
 function App() {
-  useEffect(() => {
-    if (document.querySelector('script[src="https://strava-embeds.com/embed.js"]')) {
-      return;
-    }
-
-    const script = document.createElement("script");
-    script.src = "https://strava-embeds.com/embed.js";
-    script.async = true;
-    document.body.appendChild(script);
-  }, []);
-
   return (
     <main className="min-h-screen overflow-hidden bg-paper text-asphalt">
       <section className="relative isolate border-b-2 border-asphalt bg-[linear-gradient(135deg,#fff8ea_0%,#f5ead1_46%,#d9fb6f_100%)]">
@@ -88,7 +74,7 @@ function App() {
                   <Activity size={22} strokeWidth={2.6} />
                 </div>
                 <div>
-                  <p className="font-display text-lg font-black uppercase leading-none">Jog Tracker</p>
+                  <p className="font-display text-lg font-black uppercase leading-none">Thuta Run Log</p>
                   <p className="text-xs font-bold uppercase tracking-[.24em] text-copper">Strava board</p>
                 </div>
               </div>
@@ -104,10 +90,6 @@ function App() {
             </nav>
 
             <div className="max-w-3xl animate-rise">
-              <div className="mb-6 inline-flex items-center gap-2 border-2 border-asphalt bg-paper px-3 py-2 font-display text-xs font-black uppercase shadow-hard">
-                <RadioTower size={16} />
-                Synced from local run log
-              </div>
               <h1 className="font-display text-[clamp(3.3rem,10vw,8.4rem)] font-black uppercase leading-[.82] tracking-normal">
                 Road work,
                 <span className="block text-ember">logged.</span>
@@ -254,8 +236,8 @@ function App() {
             <div className="border-2 border-paper/20 bg-paper/5 p-5">
               <p className="font-display text-2xl font-black uppercase text-volt">{stravaActivities.length}</p>
               <p className="mt-2 max-w-lg text-sm font-semibold leading-6 text-paper/65">
-                Strava activities parsed from your markdown log. Recent rides/runs below link straight to
-                Strava and the top three render as embeds when Strava allows it.
+                Strava activities parsed from your markdown log. The feed below links straight to Strava
+                so private or non-embeddable activities never break the public page.
               </p>
             </div>
           </div>
@@ -303,18 +285,57 @@ function App() {
             ))}
           </div>
 
-          <div className="grid gap-5">
-            {embeddedStrava.map((activity) => (
-              <article key={activity.id} className="min-h-[220px] border-2 border-asphalt bg-white p-3 shadow-hard">
-                <div
-                  className="strava-embed-placeholder"
-                  data-embed-type="activity"
-                  data-embed-id={activity.id}
-                  data-style="standard"
-                />
-              </article>
-            ))}
-          </div>
+          <aside className="border-2 border-asphalt bg-asphalt p-5 text-paper shadow-hard">
+            <div className="flex items-start justify-between gap-5">
+              <div>
+                <p className="font-display text-xs font-black uppercase tracking-[.22em] text-volt">
+                  Latest status
+                </p>
+                <h3 className="mt-3 font-display text-5xl font-black uppercase leading-none text-ember">
+                  Ran
+                </h3>
+              </div>
+              <span className="grid h-12 w-12 place-items-center border-2 border-paper/25 bg-paper/10">
+                <Activity className="text-volt" />
+              </span>
+            </div>
+
+            <div className="my-8 border-y-2 border-paper/15 py-8">
+              <p className="font-display text-2xl font-black uppercase">{formatPrettyDate(recentStrava[0].date)}</p>
+              <p className="mt-3 max-w-md text-sm font-semibold leading-6 text-paper/65">
+                Activity #{recentStrava[0].id} is the newest Strava record in the generated feed.
+              </p>
+              <a
+                href={recentStrava[0].url}
+                className="mt-6 inline-flex h-11 items-center gap-2 border-2 border-volt bg-volt px-4 font-display text-sm font-black uppercase text-asphalt transition hover:-translate-y-0.5"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Open on Strava
+                <ArrowUpRight size={17} />
+              </a>
+            </div>
+
+            <div className="grid gap-3">
+              {recentStrava.slice(1, 5).map((activity) => (
+                <a
+                  key={activity.id}
+                  href={activity.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="flex items-center justify-between border-2 border-paper/15 bg-paper/5 px-4 py-3 transition hover:border-volt hover:bg-paper/10"
+                >
+                  <span>
+                    <span className="block font-display text-sm font-black uppercase">
+                      {formatPrettyDate(activity.date)}
+                    </span>
+                    <span className="block text-xs font-bold text-paper/45">#{activity.id}</span>
+                  </span>
+                  <ArrowUpRight size={17} />
+                </a>
+              ))}
+            </div>
+          </aside>
         </div>
       </section>
     </main>
