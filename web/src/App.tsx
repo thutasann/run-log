@@ -104,7 +104,7 @@ function App() {
                   <img src={athleteImage} alt="Thuta Sann" className="h-full w-full object-cover" />
                 </a>
                 <div>
-                  <p className="font-display text-lg font-black uppercase leading-none">Thuta Run Log</p>
+                  <p className="font-display text-lg font-black uppercase leading-none">Run Log</p>
                   <p className="text-xs font-bold uppercase tracking-[.24em] text-copper">Thuta Sann</p>
                 </div>
               </div>
