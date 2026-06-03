@@ -344,8 +344,7 @@ function App() {
             <div className="border-2 border-paper/20 bg-paper/5 p-5">
               <p className="font-display text-2xl font-black uppercase text-volt">{stravaActivities.length}</p>
               <p className="mt-2 max-w-lg text-sm font-semibold leading-6 text-paper/65">
-                Strava activities parsed from your markdown log. The feed below links straight to Strava
-                so private or non-embeddable activities never break the public page.
+                Logged runs and training days, stacked from the first mile to the latest finish.
               </p>
             </div>
           </div>
