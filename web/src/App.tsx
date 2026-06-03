@@ -125,8 +125,7 @@ function App() {
                 <span className="block text-ember">logged.</span>
               </h1>
               <p className="mt-7 max-w-xl text-lg font-semibold leading-8 text-asphalt/78">
-                Thuta Sann's compact public dashboard for streaks, consistency, calendar history, and every Strava
-                activity currently stored in your tracker.
+                Show up. Log miles. Stay moving.
               </p>
             </div>
 
@@ -166,7 +165,7 @@ function App() {
                 <div className="pb-4">
                   <p className="font-display text-3xl font-black uppercase leading-none">day streak</p>
                   <p className="mt-3 max-w-xs text-sm font-semibold leading-6 text-paper/65">
-                    Keep this panel public on Vercel, then plug in live Strava API data when you are ready.
+                    One run at a time, stacked into a streak worth keeping honest.
                   </p>
                 </div>
               </div>
