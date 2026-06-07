@@ -75,7 +75,7 @@ export function DateFilter({
                       ? "border-asphalt bg-volt text-asphalt hover:-translate-y-0.5"
                       : hasRun(date)
                         ? "border-asphalt/40 bg-paper text-asphalt/65 hover:bg-fog"
-                        : "border-asphalt/15 bg-fog text-asphalt/35"
+                        : "border-asphalt/25 bg-fog text-asphalt/65"
               }`}
               onClick={() => date && onSelectDate(date)}
             >
@@ -92,7 +92,7 @@ export function DateFilter({
         </div>
         <div className="border-2 border-asphalt bg-asphalt p-3 text-paper">
           <p className="font-display text-2xl font-black text-volt">{activeDayCount}</p>
-          <p className="text-xs font-black uppercase text-paper/55">Active days</p>
+          <p className="text-xs font-black uppercase text-paper/80">Active days</p>
         </div>
       </div>
     </div>

@@ -10,7 +10,7 @@ export function WeeklyProgressCard({ week }: WeeklyProgressCardProps) {
     <div className="border-2 border-asphalt bg-paper p-4">
       <div className="mb-4 flex items-center justify-between">
         <p className="font-display text-xs font-black uppercase text-asphalt/55">{week.label}</p>
-        <CircleDot size={18} className={week.count >= 5 ? "text-ember" : "text-asphalt/35"} />
+        <CircleDot size={18} className={week.count >= 5 ? "text-ember" : "text-asphalt/65"} />
       </div>
       <div className="flex h-28 items-end gap-1">
         {Array.from({ length: 7 }, (_, index) => (

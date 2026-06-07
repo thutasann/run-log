@@ -55,7 +55,7 @@ export function LatestStatusCard({ athleteImage, athleteUrl, latestActivity, rec
           >
             <span>
               <span className="block font-display text-sm font-black uppercase">{formatPrettyDate(activity.date)}</span>
-              <span className="block text-xs font-bold text-paper/45">#{activity.id}</span>
+              <span className="block text-xs font-bold text-paper/75">#{activity.id}</span>
             </span>
             <ArrowUpRight size={17} />
           </a>

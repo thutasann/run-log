@@ -1,11 +1,8 @@
-import { ArrowUpRight, Sparkles } from "lucide-react";
-import { AthleteAvatar } from "../atoms/AthleteAvatar";
+import { Sparkles } from "lucide-react";
 import { formatPrettyDate } from "../../lib/stats";
 import type { WeekTotal } from "../../types";
 
 type HeroSectionProps = {
-  athleteImage: string;
-  athleteUrl: string;
   heatmapDays: Array<{ date: string; ran: boolean }>;
   maxWeek: number;
   streakDays: number;
@@ -14,8 +11,6 @@ type HeroSectionProps = {
 };
 
 export function HeroSection({
-  athleteImage,
-  athleteUrl,
   heatmapDays,
   maxWeek,
   streakDays,
@@ -27,25 +22,6 @@ export function HeroSection({
       <div className="absolute inset-0 -z-10 bg-grid bg-[size:28px_28px]" />
       <div className="mx-auto grid min-h-[88vh] w-full max-w-7xl gap-10 px-5 py-6 sm:px-8 lg:grid-cols-[1.05fr_.95fr] lg:px-10">
         <div className="flex flex-col justify-between gap-10">
-          <nav className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <AthleteAvatar href={athleteUrl} image={athleteImage} label="Open Thuta Sann on Strava" />
-              <div>
-                <p className="font-display text-lg font-black uppercase leading-none">Run Log</p>
-                <p className="text-xs font-bold uppercase tracking-[.24em] text-copper">Thuta Sann</p>
-              </div>
-            </div>
-            <a
-              href={athleteUrl}
-              className="group inline-flex h-11 items-center gap-2 border-2 border-asphalt bg-asphalt px-4 font-display text-sm font-extrabold uppercase text-paper shadow-hard transition hover:-translate-y-0.5"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Athlete
-              <ArrowUpRight size={17} className="transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-            </a>
-          </nav>
-
           <div className="max-w-3xl animate-rise">
             <h1 className="font-display text-[clamp(3.3rem,10vw,8.4rem)] font-black uppercase leading-[.82] tracking-normal">
               Road work,

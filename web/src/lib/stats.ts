@@ -143,3 +143,59 @@ export const getHeatmapDays = (dates: readonly string[], todayKey: string, count
     };
   });
 };
+
+export const getYearMonths = (dates: readonly string[], year: number) => {
+  const runSet = new Set(dates);
+
+  return Array.from({ length: 12 }, (_, month) => {
+    const cursor = new Date(year, month, 1);
+    const daysInMonth = new Date(year, month + 1, 0).getDate();
+    let count = 0;
+
+    for (let day = 1; day <= daysInMonth; day += 1) {
+      if (runSet.has(toDateKey(new Date(year, month, day)))) count += 1;
+    }
+
+    return {
+      key: `${year}-${`${month + 1}`.padStart(2, "0")}`,
+      label: new Intl.DateTimeFormat("en", { month: "short" }).format(cursor),
+      count,
+      daysInMonth
+    };
+  });
+};
+
+export const getStreakChain = (dates: readonly string[], todayKey: string, count = 21) => {
+  const runSet = new Set(dates);
+  const today = toDate(todayKey);
+
+  return Array.from({ length: count }, (_, index) => {
+    const date = new Date(today);
+    date.setDate(today.getDate() - (count - 1 - index));
+    const key = toDateKey(date);
+
+    return {
+      date: key,
+      ran: runSet.has(key),
+      label: new Intl.DateTimeFormat("en", { weekday: "short" }).format(date)
+    };
+  });
+};
+
+export const getGroupedActivities = <T extends { date: string }>(activities: readonly T[], monthCount = 8) => {
+  const groups = new Map<string, T[]>();
+
+  for (const activity of activities) {
+    const key = activity.date.slice(0, 7);
+    groups.set(key, [...(groups.get(key) ?? []), activity]);
+  }
+
+  return [...groups.entries()].slice(0, monthCount).map(([key, items]) => ({
+    key,
+    label: new Intl.DateTimeFormat("en", { month: "long", year: "numeric" }).format(toDate(`${key}-01`)),
+    items
+  }));
+};
+
+export const getCurrentYearCount = (dates: readonly string[], year: number) =>
+  dates.filter((date) => date.startsWith(`${year}-`)).length;
