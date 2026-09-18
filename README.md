@@ -3,10 +3,10 @@
 ## 📊 Current Stats
 
 ```
-🔥 Current Streak: 108 days
-🏃 Total Running Days: 265
-📅 Last Run: 2026-09-17
-📆 Today: 2026-09-17
+🔥 Current Streak: 109 days
+🏃 Total Running Days: 266
+📅 Last Run: 2026-09-18
+📆 Today: 2026-09-18
 ```
 
 ## 📈 Streak History
@@ -16,8 +16,8 @@
 📊 Average Streak: 6.1 days
 🔥 Total Streaks: 38
 📅 First Run: 2025-03-03
-⏱️  Days Active: 265 days
-💯 Consistency: 47.0% (265/564 days)
+⏱️  Days Active: 266 days
+💯 Consistency: 47.1% (266/565 days)
 ```
 
 ## 📅 This Month
@@ -27,7 +27,7 @@ September 2026
 Su Mo Tu We Th Fr Sa
       +1 +2 +3  4 +5 
 +6 +7 +8 +9 +10 +11 +12 
-+13 +14 +15 +16 *17 18 19 
++13 +14 +15 +16 +17 *18 19 
 20 21 22 23 24 25 26 
 27 28 29 30 
 
@@ -37,10 +37,10 @@ Legend: *Today+Ran  +Ran  [Today]
 ## 📊 Last 4 Weeks
 
 ```
-Week 8/20-8/26    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     6 runs
-Week 8/27-9/2     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 7 runs
-Week 9/3-9/9      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     6 runs
-Week 9/10-9/16    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 7 runs
+Week 8/21-8/27    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     6 runs
+Week 8/28-9/3     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 7 runs
+Week 9/4-9/10     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     6 runs
+Week 9/11-9/17    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 7 runs
 ```
 
 ## 📊 Last 6 Months
@@ -51,7 +51,7 @@ May 2026  ███████████████████████�
 Jun 2026  ██████████████████████████████████████████ 25 runs
 Jul 2026  ███████████████████████████████████████████████ 28 runs
 Aug 2026  ██████████████████████████████████████████████████ 30 runs
-Sep 2026  ███████████████████████████ 16 runs
+Sep 2026  ████████████████████████████ 17 runs
 ```
 
 ## 📊 Day of Week Breakdown
@@ -62,7 +62,7 @@ Monday     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 Tuesday    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓        34 runs
 Wednesday  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓    39 runs
 Thursday   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓    39 runs
-Friday     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓              25 runs
+Friday     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓             26 runs
 Saturday   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 44 runs
 
 ⭐ Favorite Day: Saturday
