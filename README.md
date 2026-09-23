@@ -3,21 +3,21 @@
 ## 📊 Current Stats
 
 ```
-🔥 Current Streak: 112 days
-🏃 Total Running Days: 269
-📅 Last Run: 2026-09-22
-📆 Today: 2026-09-22
+🔥 Current Streak: 113 days
+🏃 Total Running Days: 270
+📅 Last Run: 2026-09-23
+📆 Today: 2026-09-23
 ```
 
 ## 📈 Streak History
 
 ```
 🏆 Longest Streak: 32 days
-📊 Average Streak: 6.2 days
-🔥 Total Streaks: 38
+📊 Average Streak: 6.1 days
+🔥 Total Streaks: 39
 📅 First Run: 2025-03-03
-⏱️  Days Active: 269 days
-💯 Consistency: 47.3% (269/569 days)
+⏱️  Days Active: 270 days
+💯 Consistency: 47.4% (270/570 days)
 ```
 
 ## 📅 This Month
@@ -28,7 +28,7 @@ Su Mo Tu We Th Fr Sa
       +1 +2 +3  4 +5 
 +6 +7 +8 +9 +10 +11 +12 
 +13 +14 +15 +16 +17 +18 +19 
-+20 21 *22 23 24 25 26 
++20 21 +22 *23 24 25 26 
 27 28 29 30 
 
 Legend: *Today+Ran  +Ran  [Today]
@@ -37,10 +37,10 @@ Legend: *Today+Ran  +Ran  [Today]
 ## 📊 Last 4 Weeks
 
 ```
-Week 8/25-8/31    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     6 runs
-Week 9/1-9/7      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     6 runs
-Week 9/8-9/14     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 7 runs
-Week 9/15-9/21    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     6 runs
+Week 8/26-9/1     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 7 runs
+Week 9/2-9/8      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     6 runs
+Week 9/9-9/15     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 7 runs
+Week 9/16-9/22    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     6 runs
 ```
 
 ## 📊 Last 6 Months
@@ -51,7 +51,7 @@ May 2026  ███████████████████████�
 Jun 2026  ██████████████████████████████████████████ 25 runs
 Jul 2026  ███████████████████████████████████████████████ 28 runs
 Aug 2026  ██████████████████████████████████████████████████ 30 runs
-Sep 2026  █████████████████████████████████ 20 runs
+Sep 2026  ███████████████████████████████████ 21 runs
 ```
 
 ## 📊 Day of Week Breakdown
@@ -60,7 +60,7 @@ Sep 2026  ███████████████████████�
 Sunday     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   42 runs
 Monday     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  43 runs
 Tuesday    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓        35 runs
-Wednesday  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     39 runs
+Wednesday  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓    40 runs
 Thursday   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     39 runs
 Friday     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓              26 runs
 Saturday   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 45 runs
