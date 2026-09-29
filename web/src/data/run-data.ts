@@ -279,16 +279,22 @@ export const exerciseDates = [
   "2026-09-25",
   "2026-09-26",
   "2026-09-27",
-  "2026-09-28"
+  "2026-09-28",
+  "2026-09-29"
 ] as const;
 
 export const streak = {
-  "current_streak": 118,
-  "total_days": 275,
-  "last_updated": "2026-09-28"
+  "current_streak": 119,
+  "total_days": 276,
+  "last_updated": "2026-09-29"
 } as const;
 
 export const stravaActivities = [
+  {
+    "date": "2026-09-29",
+    "id": "20378201245",
+    "url": "https://www.strava.com/activities/20378201245"
+  },
   {
     "date": "2026-09-28",
     "id": "20364296503",
