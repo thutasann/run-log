@@ -3,10 +3,10 @@
 ## 📊 Current Stats
 
 ```
-🔥 Current Streak: 10 days
-🏃 Total Running Days: 300
-📅 Last Run: 2026-10-31
-📆 Today: 2026-10-31
+🔥 Current Streak: 11 days
+🏃 Total Running Days: 301
+📅 Last Run: 2026-11-01
+📆 Today: 2026-11-01
 ```
 
 ## 📈 Streak History
@@ -16,20 +16,20 @@
 📊 Average Streak: 6.2 days
 🔥 Total Streaks: 43
 📅 First Run: 2025-03-03
-⏱️  Days Active: 300 days
-💯 Consistency: 49.3% (300/608 days)
+⏱️  Days Active: 301 days
+💯 Consistency: 49.4% (301/609 days)
 ```
 
 ## 📅 This Month
 
 ```
-October 2026
+November 2026
 Su Mo Tu We Th Fr Sa
-            +1 +2 +3 
-+4 +5 +6 +7 +8 +9 +10 
-+11 +12 +13 14 15 +16 17 
-18 19 +20 +21 +22 +23 +24 
-25 +26 +27 +28 29 +30 *31 
+*1  2  3  4  5  6  7 
+ 8  9 10 11 12 13 14 
+15 16 17 18 19 20 21 
+22 23 24 25 26 27 28 
+29 30 
 
 Legend: *Today+Ran  +Ran  [Today]
 ```
@@ -37,27 +37,27 @@ Legend: *Today+Ran  +Ran  [Today]
 ## 📊 Last 4 Weeks
 
 ```
-Week 10/3-10/9    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 7 runs
-Week 10/10-10/16  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓          5 runs
-Week 10/17-10/23  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓              4 runs
-Week 10/24-10/30  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓          5 runs
+Week 10/4-10/10   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 7 runs
+Week 10/11-10/17  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓              4 runs
+Week 10/18-10/24  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓          5 runs
+Week 10/25-10/31  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓          5 runs
 ```
 
 ## 📊 Last 6 Months
 
 ```
-May 2026  ██████████████████████████████████████████ 25 runs
 Jun 2026  ██████████████████████████████████████████ 25 runs
 Jul 2026  ███████████████████████████████████████████████ 28 runs
 Aug 2026  ██████████████████████████████████████████████████ 30 runs
 Sep 2026  █████████████████████████████████████████████ 27 runs
 Oct 2026  ████████████████████████████████████████ 24 runs
+Nov 2026  ██ 1 runs
 ```
 
 ## 📊 Day of Week Breakdown
 
 ```
-Sunday     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓    45 runs
+Sunday     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   46 runs
 Monday     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   47 runs
 Tuesday    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓       40 runs
 Wednesday  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     43 runs
