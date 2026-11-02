@@ -3,10 +3,10 @@
 ## 📊 Current Stats
 
 ```
-🔥 Current Streak: 11 days
-🏃 Total Running Days: 301
-📅 Last Run: 2026-11-01
-📆 Today: 2026-11-01
+🔥 Current Streak: 12 days
+🏃 Total Running Days: 302
+📅 Last Run: 2026-11-02
+📆 Today: 2026-11-02
 ```
 
 ## 📈 Streak History
@@ -16,8 +16,8 @@
 📊 Average Streak: 6.2 days
 🔥 Total Streaks: 43
 📅 First Run: 2025-03-03
-⏱️  Days Active: 301 days
-💯 Consistency: 49.4% (301/609 days)
+⏱️  Days Active: 302 days
+💯 Consistency: 49.5% (302/610 days)
 ```
 
 ## 📅 This Month
@@ -25,7 +25,7 @@
 ```
 November 2026
 Su Mo Tu We Th Fr Sa
-*1  2  3  4  5  6  7 
++1 *2  3  4  5  6  7 
  8  9 10 11 12 13 14 
 15 16 17 18 19 20 21 
 22 23 24 25 26 27 28 
@@ -37,10 +37,10 @@ Legend: *Today+Ran  +Ran  [Today]
 ## 📊 Last 4 Weeks
 
 ```
-Week 10/4-10/10   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 7 runs
-Week 10/11-10/17  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓              4 runs
-Week 10/18-10/24  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓          5 runs
-Week 10/25-10/31  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓          5 runs
+Week 10/5-10/11   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 7 runs
+Week 10/12-10/18  ▓▓▓▓▓▓▓▓▓▓▓▓▓                  3 runs
+Week 10/19-10/25  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓          5 runs
+Week 10/26-11/1   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     6 runs
 ```
 
 ## 📊 Last 6 Months
@@ -51,14 +51,14 @@ Jul 2026  ███████████████████████�
 Aug 2026  ██████████████████████████████████████████████████ 30 runs
 Sep 2026  █████████████████████████████████████████████ 27 runs
 Oct 2026  ████████████████████████████████████████ 24 runs
-Nov 2026  ██ 1 runs
+Nov 2026  ███ 2 runs
 ```
 
 ## 📊 Day of Week Breakdown
 
 ```
 Sunday     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   46 runs
-Monday     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓   47 runs
+Monday     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  48 runs
 Tuesday    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓       40 runs
 Wednesday  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     43 runs
 Thursday   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     43 runs
