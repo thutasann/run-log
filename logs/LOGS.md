@@ -4,6 +4,7 @@
 
 | Date | Status |
 |------|--------|
+| 2026-11-17 | ✅ Ran |
 | 2026-11-16 | ✅ Ran |
 | 2026-11-15 | ✅ Ran |
 | 2026-11-14 | ✅ Ran |
@@ -23,7 +24,6 @@
 | 2026-10-27 | ✅ Ran |
 | 2026-10-26 | ✅ Ran |
 | 2026-10-24 | ✅ Ran |
-| 2026-10-23 | ✅ Ran |
 
 ## Strava Activities
 
@@ -337,6 +337,14 @@
 
 
 
+
+
+### 2026-11-17
+[View on Strava](https://www.strava.com/activities/21020395277)
+
+```.html
+<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="21020395277" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+```
 
 ### 2026-11-16
 [View on Strava](https://www.strava.com/activities/21007752101)
